@@ -237,6 +237,17 @@ doit proc			; proc -- procedure
 	; ------------------------------------ Hex to Binary - Leading Zeros Are Important ------------------------------
 	; ref link:https://www.youtube.com/watch?v=C6MfVPiWX2g&list=PLRwVmtr-pp06-8kzgl6j-hp7JSd829ro2&index=16
 
+	;    C    3
+	;  1100 0011
+
+	; Importance of Leading Zeros
+
+	; without leading zeros - error
+	; 32 16 8 4    2 1
+	;  1 1  0 0    1 1  = 51binary
+	; with leading zeros
+	; 128 64 32 16  8 4 7 1
+	;   1  1 0  0   0 0 1 1  = 195binary
 
 
 
