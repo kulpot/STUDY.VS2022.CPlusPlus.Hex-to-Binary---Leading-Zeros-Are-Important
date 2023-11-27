@@ -234,6 +234,8 @@ doit proc			; proc -- procedure
 	; Hexadecimal = Decimal: 87 = 135
 	; 87: 16*8=128+7=135
 
+	; ------------------------------------ Hex to Binary - Leading Zeros Are Important ------------------------------
+	; ref link:https://www.youtube.com/watch?v=C6MfVPiWX2g&list=PLRwVmtr-pp06-8kzgl6j-hp7JSd829ro2&index=16
 
 
 
